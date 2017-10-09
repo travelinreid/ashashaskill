@@ -1,0 +1,107 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "ConnorLocation",
+      "samples": [
+        "Where is Connor"
+      ],
+      "slots": []
+    },
+    {
+      "name": "DaddyLocation",
+      "samples": [
+        "Where is daddy",
+        "where did daddy go"
+      ],
+      "slots": []
+    },
+    {
+      "name": "DaddyReturn",
+      "samples": [
+        "does daddy come home today",
+        "when does daddy come home",
+        "what day does daddy come home"
+      ],
+      "slots": []
+    },
+    {
+      "name": "EvelynBathtime",
+      "samples": [
+        "Is it bath time",
+        "is it time for a bath",
+        "should evelyn take a bath",
+        "does evelyn need a bath"
+      ],
+      "slots": []
+    },
+    {
+      "name": "EvelynBrushTeeth",
+      "samples": [
+        "should evelyn brush her teeth",
+        "is it time to brush teeth"
+      ],
+      "slots": []
+    },
+    {
+      "name": "EvelynDaycare",
+      "samples": [
+        "does evelyn have to go to daycare {date}",
+        "is evelyn going to daycare {date}"
+      ],
+      "slots": [
+        {
+          "name": "date",
+          "type": "AMAZON.DayOfWeek",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "KnowMuffinMan",
+      "samples": [
+        "do you know the muffin man"
+      ],
+      "slots": []
+    },
+    {
+      "name": "MommyLove",
+      "samples": [
+        "How much does mommy love Evelyn",
+        "Does mommy love Evelyn"
+      ],
+      "slots": []
+    },
+    {
+      "name": "MommyWorking",
+      "samples": [
+        "is {person} going to work {date}",
+        "is {person} working {date}",
+        "does {person} have to go to work {date}"
+      ],
+      "slots": [
+        {
+          "name": "person",
+          "type": "AMAZON.Person",
+          "samples": []
+        },
+        {
+          "name": "date",
+          "type": "AMAZON.DayOfWeek",
+          "samples": []
+        }
+      ]
+    }
+  ]
+}
